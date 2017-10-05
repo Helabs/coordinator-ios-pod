@@ -28,11 +28,7 @@ Pod::Spec.new do |s|
   
     s.ios.deployment_target = '8.0'
   
-<<<<<<< HEAD
-    s.source_files = 'Coordinator/Classes/**/*'
-=======
     s.source_files = 'Classes/**/*'
->>>>>>> Initial commit
     
     s.dependency 'R.swift', '~> 3.3'
   end
