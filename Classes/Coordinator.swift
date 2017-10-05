@@ -5,8 +5,5 @@ protocol Coordinator: class {
     var childs: [Coordinator] { get }
 
     init(window: UIWindow)
-<<<<<<< HEAD
-=======
     func start()
->>>>>>> Initial commit
 }
