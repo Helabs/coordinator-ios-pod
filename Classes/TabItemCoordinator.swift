@@ -1,4 +1,5 @@
 import UIKit
+import Foundation
 
 protocol TabItemCoordinator {
     associatedtype RootType: UIViewController

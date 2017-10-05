@@ -1,6 +1,7 @@
 import UIKit
+import Foundation
 
-final class AnyTabCoordinator {
+class AnyTabCoordinator {
     let rootController: UIViewController
     let tabBarItem: UITabBarItem
     let coordinator: Coordinator
