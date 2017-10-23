@@ -1,6 +1,6 @@
 import UIKit
 
-protocol Coordinator: class {
+public protocol Coordinator: class {
     var window: UIWindow { get }
     var childs: [Coordinator] { get }
 
