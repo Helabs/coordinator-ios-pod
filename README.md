@@ -1,6 +1,6 @@
 # RxAdditions
 
-[![Version](https://img.shields.io/badge/version-0.1.0-green.svg)](http://github.com/helabs/coordinator-pod-ios/)
+[![Version](https://img.shields.io/badge/version-0.2.1-green.svg)](http://github.com/helabs/coordinator-pod-ios/)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](http://github.com/helabs/coordinator-pod-ios/)
 
 ## Requirements
