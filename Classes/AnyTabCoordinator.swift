@@ -2,11 +2,11 @@ import UIKit
 import Foundation
 
 public class AnyTabCoordinator {
-    let rootController: UIViewController
-    let tabBarItem: UITabBarItem
-    let coordinator: Coordinator
+    public let rootController: UIViewController
+    public let tabBarItem: UITabBarItem
+    public let coordinator: Coordinator
 
-    init<T: TabItemCoordinator>(_ tabCoordinator: T) {
+    public init<T: TabItemCoordinator>(_ tabCoordinator: T) {
         rootController = tabCoordinator.rootController
         tabBarItem = tabCoordinator.tabBarItem
         //swiftlint:disable force_cast
@@ -14,11 +14,11 @@ public class AnyTabCoordinator {
         //swiftlint:enable force_cast
     }
 
-    func start() {
+    public func start() {
         coordinator.start()
     }
 }
 
-func deGenericize<T: TabItemCoordinator>(_ coordinator: T) -> AnyTabCoordinator {
+public func deGenericize<T: TabItemCoordinator>(_ coordinator: T) -> AnyTabCoordinator {
     return AnyTabCoordinator(coordinator)
 }
